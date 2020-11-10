@@ -1,0 +1,161 @@
+/* Styling for the Social Proof code challenges */
+
+/********** Alignment of the body **********/
+body {
+  margin: 150px;
+}
+
+/********** styling the fonts and copy **********/
+h1, h2, h3, p {
+  font-family: "Spartan", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+
+p {
+  font-size: 15px;
+}
+
+.subheader {
+  font-weight: 400;
+  color: grey;
+}
+
+.stars-reviews {
+  color: #532052;
+  font-weight: 700;
+  font-size: 12px;
+  margin-right: 25px;
+  display: inline-block;
+}
+
+.buyer-reviews h2 {
+  font-size: 12px;
+  color: white;
+  font-weight: 500;
+}
+
+.buyer-reviews h3 {
+  /* color: #874276; */
+  font-size: 12px;
+  color: hsl(333, 80%, 67%);
+  font-weight: 500;
+}
+
+.buyer-reviews p {
+  font-size: 12px;
+  line-height: 1.5;
+  color: white;
+}
+
+/********** alignment of the fold-area section **********/
+.fold-area {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.header-section {
+  display: inline-block;
+}
+
+.header-section {
+  width: 35%;
+}
+
+.header-section p {
+  margin-top: 10px;
+  line-height: 1.5;
+  width: 120%;
+}
+
+.stars-section {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+}
+
+.stars-one, .stars-two, .stars-three {
+  background-color: hsl(300, 24%, 96%);
+  padding: 15px 35px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.stars-one {
+  position: relative;
+  right: 75px;
+}
+
+.stars-two {
+  position: relative;
+  right: 35px;
+}
+
+.stars {
+  margin-right: 30px;
+  display: inline-block;
+}
+
+
+.header-section h1, .header-section p, .stars-reviews p {
+  display: inline-block;
+}
+
+/********** styling and alignment of buyer reviews section **********/
+.buyer-reviews {
+  position: relative;
+}
+
+.review-colton, .review-irene, .review-anne {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  display: inline-block;
+  margin: auto;
+  padding: 35px;
+  width: 25%;
+
+}
+
+.review-colton, .review-irene {
+  margin-right: 30px;
+}
+
+.review-irene {
+  position: relative;
+  top: 15px;
+}
+
+.review-anne {
+  position: relative;
+  top: 30px;
+}
+
+.image-and-name {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.image-colton, .image-irene, .image-anne {
+  display: inline-block;
+}
+
+.buyer-name {
+  display: inline-block;
+  position: absolute;
+  line-height: 1.5;
+  width: 150%;
+}
+
+
+/********** styling the profile pictures **********/
+
+
+img {
+  border-radius: 50%;
+  width: 40%;
+}
